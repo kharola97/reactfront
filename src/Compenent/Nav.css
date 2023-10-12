@@ -1,0 +1,15 @@
+.Navbar{
+    padding-top: 25px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.Anchor a{
+    padding: 1vw;
+}
+.logo{
+    padding-left: 2vw;
+}
