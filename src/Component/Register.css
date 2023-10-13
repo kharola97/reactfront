@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Register{
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffe0a9;
+}
+
+.right-image img{
+    background-size: cover;
+    height: 100%;
+    width: 65%;
+}
+
+.left-register{
+    height: 100%;
+    width: 35%;
+    padding:  2vw 2vw;
+    background-color: #eece98;
+   
+   font-size: 1.5vw;
+   border-radius: 4px;
+}
+
+.left-register p{
+    margin-left: 4vw;
+}
+.left-register h2{
+    color: #206218;
+    padding-left: 8vw;
+}
+.registration-form{
+    margin-top: 2vw;
+    
+}
+.registration-form input{
+    width: 70%;
+    height: 2.2vw;
+    border: none;
+    
+}
+.registration-form label{
+    padding-right: 1.2vw;
+}
+.fullname{
+    padding: 1vw 2vw;
+}
+.password{
+    padding: 1vw 2vw;
+}
+.password input{
+    margin-left: 0.5vw;
+}
+.phone{
+    padding: 1vw 2vw;
+
+}
+.phone input{
+    margin-left: 2.5vw;
+}
+.email{
+    padding: 1vw 2vw;
+
+}
+.email input{
+    margin-left: 3.2vw;
+}
+.register-button button{
+    height: 2.8vw;
+    width: 30%;
+    margin: 2vw 11.5vw;
+    background-color: rgb(24, 17, 9);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.register-button button:hover{
+    background-color: lightgreen;
+    color: black;
+    transform: scale(1.5);
+    cursor: pointer;
+}
