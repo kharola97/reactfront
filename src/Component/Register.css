@@ -19,13 +19,14 @@
 }
 
 .left-register{
-    height: 100%;
+    margin-top: 1.5vw;
+    height: 90%;
     width: 35%;
     padding:  2vw 2vw;
     background-color: #eece98;
-   
-   font-size: 1.5vw;
-   border-radius: 4px;
+    box-shadow: 0 0 20px -2px #444444;
+    font-size: 1.5vw;
+   border-radius: 8px;
 }
 
 .left-register p{
@@ -45,17 +46,50 @@
     border: none;
     
 }
+.registration-form input:focus{
+    border: 2px solid #206218;; /* Change the color to the desired shade of blue */
+    box-shadow: 0 0 5px #206218; /* Optional: Add a shadow effect */
+    outline: none; /* Remove the default blue outline */
+}
 .registration-form label{
     padding-right: 1.2vw;
+    color: #206218;
 }
 .fullname{
     padding: 1vw 2vw;
 }
 .password{
+    display: flex;
+    padding:  1vw 2vw;
+}
+/* .password{
     padding: 1vw 2vw;
 }
 .password input{
+    margin-left: 0.5vw; 
+}*/
+.passwordShow {
+    position: relative;
+  }
+  
+  .eyeButton {
+    position: absolute;
+    top: 60%;
+    right: 0px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none; /* Prevent text selection when clicking the eye icon */
+  }
+  
+  /* Style for the eye icon (customize as needed) */
+  .eyeButton > svg {
+    font-size: 1.2em; /* Adjust the font size as desired */
+  }
+  
+.password input{
     margin-left: 0.5vw;
+    width: 100%;
+    padding-right: 8.8vw;
 }
 .phone{
     padding: 1vw 2vw;
@@ -75,15 +109,21 @@
     height: 2.8vw;
     width: 30%;
     margin: 2vw 11.5vw;
-    background-color: rgb(24, 17, 9);
+    background-color: #206218;
     color: white;
     border-radius: 6px;
     border: none;
     cursor: pointer;
 }
 .register-button button:hover{
-    background-color: lightgreen;
-    color: black;
-    transform: scale(1.5);
+    background-color: #206218;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px -2px #444444;
     cursor: pointer;
+}
+
+.form-footer a{
+    color: #206218;
+    
 }
