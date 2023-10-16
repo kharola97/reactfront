@@ -4,17 +4,21 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #206218;
-    color: #eece98;
+   
+    
     font-size: 1.2vw;
 }
 .Anchor a{
     padding: 1vw;
-    color: #eece98;
+    color: black;
+    margin-right: 3vw;
+    font-size: 1.8vw;
 }
 .Navbar img{
     height: 100%;
     width: 60%;
-    margin-left: 5vw;
+    margin-left: 12vw;
+    margin-top: -1vw;
     
 }
+

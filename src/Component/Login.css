@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.loginpage{
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: flex;
+    
+}
+
+.right-login img{
+    height: 100%;
+    width: 80%;
+    background-size: cover;
+    margin-left: 4vw;
+    
+    
+}
+.left-login img{
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    margin-left: 10vw;
+}
+.center-login{
+    height: 90%;
+    width: 40%;
+    border: 2px solid black;
+    padding: 4vw 2vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 30px -2px #444444;
+    margin-top: 2vw;
+   
+}
+.center-login h1{
+    margin-left: 8vw;
+    margin-bottom: 3vw;
+    font-size: 2.2vw;
+}
+
+.center-login label{
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding-right: 1vw;
+}
+
+.username input{
+    margin-left: 0.2vw;
+    height: 2.5vw;
+    width: 60%;
+    font-size: 1vw;
+}
+.password-login input{
+    padding-right: 2vw;
+    margin-left: 0.5vw;
+    height: 2.5vw;
+    width: 60%;
+    font-size: 1vw;
+}
+.center-login button{
+    height: 2.5vw;
+    width: 6vw;
+    margin-left: 8vw;
+    margin-top: 4vw;
+    font-size: 1vw;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+}
+.center-login button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px -2px #444444;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.username{
+    margin-bottom: 2vw;
+}
+
+.footer-login{
+   padding-top: 3vw;
+    font-size: 1.5vw;
+    
+}
+
+.showpassword{
+    margin-top: 2vw;
+    font-size: 0.5vw;
+    display: flex;
+    margin-left: 6.5vw;
+}
+.showpassword input {
+   width: 10%;
+}
+.showpassword label{
+    font-weight: 400;
+}

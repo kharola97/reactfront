@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import Image from "../Images/registerpage.jpg"
+import Image from "../Images/7922893.jpg"
 import {AiFillEyeInvisible, AiFillEye} from "react-icons/ai"
+import { Link } from 'react-router-dom'
 import "./Register.css"
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -51,7 +52,7 @@ const Register = () => {
           </div>
         </div>
         </form>
-        <p className='form-footer'>Already have an account? <a href='#' alt="">Login</a></p>
+        <p className='form-footer'>Already have an account? <Link to='/login' alt="">Login</Link></p>
         </div>
         
     </div>

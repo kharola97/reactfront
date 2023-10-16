@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: #ffe0a9;
+    
 }
 
 .right-image img{
@@ -23,7 +23,7 @@
     height: 90%;
     width: 35%;
     padding:  2vw 2vw;
-    background-color: #eece98;
+    background-color: #ff735c;
     box-shadow: 0 0 20px -2px #444444;
     font-size: 1.5vw;
    border-radius: 8px;
@@ -33,7 +33,7 @@
     margin-left: 4vw;
 }
 .left-register h2{
-    color: #206218;
+    color: black;
     padding-left: 8vw;
 }
 .registration-form{
@@ -44,16 +44,17 @@
     width: 70%;
     height: 2.2vw;
     border: none;
+    font-size: 1.2vw;
     
 }
 .registration-form input:focus{
-    border: 2px solid #206218;; /* Change the color to the desired shade of blue */
-    box-shadow: 0 0 5px #206218; /* Optional: Add a shadow effect */
+    border: 2px solid black;; /* Change the color to the desired shade of blue */
+    box-shadow: 0 0 5px black; /* Optional: Add a shadow effect */
     outline: none; /* Remove the default blue outline */
 }
 .registration-form label{
     padding-right: 1.2vw;
-    color: #206218;
+    color: black;
 }
 .fullname{
     padding: 1vw 2vw;
@@ -89,7 +90,7 @@
 .password input{
     margin-left: 0.5vw;
     width: 100%;
-    padding-right: 8.8vw;
+    padding-right: 3.1vw;
 }
 .phone{
     padding: 1vw 2vw;
@@ -109,14 +110,14 @@
     height: 2.8vw;
     width: 30%;
     margin: 2vw 11.5vw;
-    background-color: #206218;
+    background-color: black;
     color: white;
     border-radius: 6px;
     border: none;
     cursor: pointer;
 }
 .register-button button:hover{
-    background-color: #206218;
+    background-color: black;
     color: white;
     transform: scale(1.1);
     box-shadow: 0 0 20px -2px #444444;
