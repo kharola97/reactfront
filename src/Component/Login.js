@@ -45,7 +45,7 @@ const Login = () => {
                 <button type='submit'>Login</button>
             </form>
            
-            <div className='footer-login'><p>Dont have an account? <Link to='/register'>Register</Link></p></div>
+            <div className='footer-login'><p>Don't have an account? <Link to='/register'>Register</Link></p></div>
         </div>
         <div className='left-login'> <img src={rightImage} alt='Couldnt find image'></img> </div>
     </div>
